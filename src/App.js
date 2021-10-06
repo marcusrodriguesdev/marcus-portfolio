@@ -1,7 +1,11 @@
+import Marcus from "./pages/Marcus";
+import GlobalStyle from "./styles/GlobalStyle";
+
 function App() {
   return (
     <div className="App">
-      Marcus Rodrigues
+      <GlobalStyle />
+      <Marcus />
     </div>
   );
 }
