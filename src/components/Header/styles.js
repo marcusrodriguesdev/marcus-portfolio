@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   margin: 0;
   padding: 0;
-  background-color: #d7d7d9;
+  background-color: #A2D9FF;
 `;
 
 export const Navigation = styled.nav`
@@ -55,11 +55,13 @@ export const ContainerHeader = styled.header`
 
   h1 {
     margin-top: 100px;
+    font-size: 45px;
     animation: animate 2s ease-in-out forwards;
   }
 
   h2 {
     color: #A2D9FF;
+    /* font-size: 20px; */
     animation: heading3 2s ease-in-out forwards;
   }
 

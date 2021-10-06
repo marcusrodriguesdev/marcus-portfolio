@@ -6,15 +6,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-
-  ::-webkit-scrollbar {
-    width: 15px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: #333533;
-    border-radius: 50px;
+    scroll-behavior: smooth;
   }
 `;
 

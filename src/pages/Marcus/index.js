@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../../components/About';
 import Header from '../../components/Header';
 import GlobalStyle from '../../styles/GlobalStyle';
 
@@ -9,6 +10,10 @@ function Marcus() {
     <div>
       <GlobalStyle />
       <Header />
+      <main>
+        <About />
+        
+      </main>
     </div>
   );
 }
