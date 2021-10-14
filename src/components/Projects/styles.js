@@ -171,6 +171,35 @@ export const DigitalWallet = styled.section`
     height: 35px;
   }
 
+  .boxTools {
+    background: #46178f;
+    margin-top: 30px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-weight: 600;
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+    border: none;
+    height: 35px;
+  }
+
+  .tool {
+    font-size: 18px;
+  font-family: 'Fira Mono', monospace;
+  color: #fff;
+  opacity: 0.8;
+  line-height: 28px;
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+  }
+
+  .api {
+    width: 120px;
+  }
+
   .items {
   font-size: 18px;
   font-family: 'Fira Mono', monospace;

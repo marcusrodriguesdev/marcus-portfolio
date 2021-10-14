@@ -6,9 +6,9 @@ import {
 
 function Projects() {
   return (
-    <Container>
+    <Container id="projects">
       <div>
-        <Title id="projects">
+        <Title>
           projects
         </Title>
       </div>
@@ -91,7 +91,7 @@ function Projects() {
         <DigitalWallet>
             <ProjectIcon className="trivia">
             <a
-              href="https://github.com/marcusrodriguesdev/Pixel-Art"
+              href="https://github.com/marcusrodriguesdev/sd-013-b-project-trivia-react-redux"
               target="_blank"
               rel="noreferrer"
             >
@@ -111,14 +111,17 @@ function Projects() {
                 </p>
               </div>
               <div className="ferramentas tester">
-                <div className="box react">
-                  <p className="items">React</p>
+                <div className="boxTools react">
+                  <p className="tool">React</p>
                 </div> 
-                <div className="box react">
-                  <p className="items">Redux</p>
+                <div className="boxTools react">
+                  <p className="tool">Redux</p>
                 </div> 
-                <div className="box styled">
-                  <p className="items">Styled-Components</p>
+                <div className="boxTools api">
+                  <p className="tool">API REST</p>
+                </div> 
+                <div className="boxTools react">
+                  <p className="tool">Figma</p>
                 </div> 
               </div>
             </div>
