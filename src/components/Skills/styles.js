@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #606060;
-  height: 40vh;
+  height: 45vh;
 `;
 
 export const Title = styled.h1`
