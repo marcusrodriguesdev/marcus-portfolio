@@ -132,8 +132,27 @@ export const DigitalWallet = styled.section`
     @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
   }
 
+
   .ferramentas {
     display: flex;
+  }
+
+  .text {
+    margin-top: -5px;
+    width: 100%;
+  }
+
+  .trivia {
+    width: 205px;
+  }
+
+  .tester {
+    margin-top: -16px;
+  }
+
+  .text {
+    padding-left: 16px;
+    width: 825px;
   }
 
   .box {

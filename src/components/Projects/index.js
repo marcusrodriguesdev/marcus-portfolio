@@ -1,5 +1,5 @@
 import React from 'react';
-import { GiWallet, GiPalette } from 'react-icons/gi';
+import { GiWallet, GiPalette, GiGamepad } from 'react-icons/gi';
 import {
   Container, Title, SubTitle, Pixel, DigitalWallet, ProjectIcon, TitleProject,
 } from './styles';
@@ -87,6 +87,41 @@ function Projects() {
               </div> 
             </div>
           </div>
+        </DigitalWallet>
+        <DigitalWallet>
+            <ProjectIcon className="trivia">
+            <a
+              href="https://github.com/marcusrodriguesdev/Pixel-Art"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GiGamepad
+                color="#46178f"
+                size={ 80 }
+              />
+            </a>
+            </ProjectIcon>
+            <div>
+              <TitleProject>trivia react</TitleProject>
+              <div>
+                <p className="about-project text">
+                A quiz game was developed based on the Trivia game, using React 
+                and Redux, developing its functionalities in groups according to 
+                the defined demands.
+                </p>
+              </div>
+              <div className="ferramentas tester">
+                <div className="box react">
+                  <p className="items">React</p>
+                </div> 
+                <div className="box react">
+                  <p className="items">Redux</p>
+                </div> 
+                <div className="box styled">
+                  <p className="items">Styled-Components</p>
+                </div> 
+              </div>
+            </div>
         </DigitalWallet>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#606060" fill-opacity="1" d="M0,96L26.7,101.3C53.3,107,107,117,160,144C213.3,171,267,213,320,213.3C373.3,213,427,171,480,160C533.3,149,587,171,640,170.7C693.3,171,747,149,800,133.3C853.3,117,907,107,960,112C1013.3,117,1067,139,1120,176C1173.3,213,1227,267,1280,261.3C1333.3,256,1387,192,1413,160L1440,128L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
     </Container>
