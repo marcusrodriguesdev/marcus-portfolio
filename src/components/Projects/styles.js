@@ -128,8 +128,7 @@ export const DigitalWallet = styled.section`
     color: #1a1a1a;
     font-weight: 100;
     opacity: 0.7;
-    line-height: 24px;
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+    line-height: 24px;;
   }
 
 
@@ -189,11 +188,10 @@ export const DigitalWallet = styled.section`
 
   .tool {
     font-size: 18px;
-  font-family: 'Fira Mono', monospace;
-  color: #fff;
-  opacity: 0.8;
-  line-height: 28px;
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+    font-family: 'Fira Mono', monospace;
+    color: #fff;
+    opacity: 0.8;
+    line-height: 28px;
   }
 
   .api {

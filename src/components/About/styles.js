@@ -18,7 +18,6 @@ export const Container = styled.section`
   }
 
   p {
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
     width: 50%;
     text-align: center;
     font-family: 'Fira Mono', monospace;
