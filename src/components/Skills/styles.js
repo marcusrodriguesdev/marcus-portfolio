@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #606060;
-  height: 45vh;
+  height: 50vh;
 `;
 
 export const Title = styled.h1`
@@ -18,4 +18,8 @@ export const Tools = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  img {
+    margin: 3px;
+  }
 `;
