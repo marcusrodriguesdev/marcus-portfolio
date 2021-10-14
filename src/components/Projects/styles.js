@@ -39,7 +39,6 @@ margin-bottom: 20px;
   color: #1a1a1a;
   opacity: 0.8;
   line-height: 28px;
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 }
 
 .ferramentas {
@@ -71,7 +70,6 @@ margin-bottom: 20px;
   font-weight: 100;
   opacity: 0.7;
   line-height: 24px;
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 }
 
 .js {
@@ -204,7 +202,6 @@ export const DigitalWallet = styled.section`
   color: #1a1a1a;
   opacity: 0.8;
   line-height: 28px;
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 }
 
   .react {
